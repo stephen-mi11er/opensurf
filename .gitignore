@@ -5,9 +5,22 @@
 
 # Compiled Dynamic libraries
 *.so
-*.dylib
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
+
+# Merge Ignore
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*.orig
+
+#Operating system stuff. etc.
+.DS_Store
+.project
+*~
+*.diff
+*.patch
